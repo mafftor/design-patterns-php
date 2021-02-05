@@ -1,4 +1,4 @@
-# Patterns PHP
+# PHP Design Patterns (Examples)
 
 ### Creational
 * [x] AbstractFactory
