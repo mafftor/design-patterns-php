@@ -2,7 +2,7 @@
 
 ### Creational
 * [x] AbstractFactory
-* [ ] Builder
+* [x] Builder
 * [ ] Factory Method
 * [ ] Prototype
 * [ ] Singleton
