@@ -1,12 +1,8 @@
 <?php
 
-require_once 'engine.php';
+// Import the autoloader of files/classes
+include_once 'engine.php';
 
-// Abstract Factory
-$osxMessengerFactory = new \AbstractFactory\OSXMessengerFactory();
-echo $osxMessengerFactory->createTelegram()->sendMessage();
-echo $osxMessengerFactory->createViber()->sendMessage();
+// Import Abstract Factory example
+include_once 'AbstractFactory/index.php';
 
-$windowsMessengerFactory = new \AbstractFactory\WindowsMessengerFactory();
-echo $windowsMessengerFactory->createTelegram()->sendMessage();
-echo $windowsMessengerFactory->createViber()->sendMessage();
